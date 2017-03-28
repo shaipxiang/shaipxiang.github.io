@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-03-28T07:58:46.097Z</updated>
+  <updated>2017-03-28T08:06:27.118Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -20,23 +20,23 @@
     <link href="http://www.shaipxiang.com/2017/03/28/%E7%AE%80%E4%B9%A6MarkDown%E7%94%A8%E6%B3%95%E6%B1%87%E6%80%BB/"/>
     <id>http://www.shaipxiang.com/2017/03/28/简书MarkDown用法汇总/</id>
     <published>2017-03-28T07:55:25.000Z</published>
-    <updated>2017-03-28T07:58:46.097Z</updated>
+    <updated>2017-03-28T08:06:27.118Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/2926311-3fa0735c959c7173.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>题注：简书使用的github上的markdown语言，简单易学易用，工欲善其事必先利其器，本篇主要记录MarkDown的一些基本用法。</p>
 <hr>
-<p>##1. 标题<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</div></pre></td></tr></table></figure></p>
-<p>##2. 列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- 无序列表  1. 有序列表</div></pre></td></tr></table></figure></p>
-<p>##3. 引用<br> 文章中引用了别人的文章可以使用 “引用”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; 文章内容</div></pre></td></tr></table></figure></p>
+<h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h3>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</div></pre></td></tr></table></figure>
+<h3 id="2-列表"><a href="#2-列表" class="headerlink" title="2. 列表"></a>2. 列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">- 无序列表  1. 有序列表</div></pre></td></tr></table></figure>
+<h3 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h3><p> 文章中引用了别人的文章可以使用 “引用”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; 文章内容</div></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt;&gt; 二级引用</div></pre></td></tr></table></figure>
-<p>##4. 粗体斜体<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">*斜体字*  **粗体字**</div></pre></td></tr></table></figure></p>
-<p>##5. 链接<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[链接文字](url链接地址)</div></pre></td></tr></table></figure></p>
-<p>##6. 图片<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![图片名字](url地址)</div></pre></td></tr></table></figure></p>
-<p><img src="http://img3.douban.com/mpic/s1108264.jpg" alt="图片名字"><br>本地图片可以直接拖动图片到编辑框中</p>
-<p>##7. 分割线和删除线<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">---  *** 分割线</div></pre></td></tr></table></figure></p>
+<h3 id="4-粗体斜体"><a href="#4-粗体斜体" class="headerlink" title="4. 粗体斜体"></a>4. 粗体斜体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">*斜体字*  **粗体字**</div></pre></td></tr></table></figure>
+<h3 id="5-链接"><a href="#5-链接" class="headerlink" title="5. 链接"></a>5. 链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[链接文字](url链接地址)</div></pre></td></tr></table></figure>
+<h3 id="6-图片"><a href="#6-图片" class="headerlink" title="6. 图片"></a>6. 图片</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![图片名字](url地址)</div></pre></td></tr></table></figure>
+<p><img src="http://p4.so.qhmsg.com/bdr/_240_/t018b50e9caecc55ab9.jpg" alt="图片名字"><br>本地图片可以直接拖动图片到编辑框中</p>
+<h3 id="7-分割线和删除线"><a href="#7-分割线和删除线" class="headerlink" title="7. 分割线和删除线"></a>7. 分割线和删除线</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">---  *** 分割线</div></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~~删除文字~~</div></pre></td></tr></table></figure>
 <p><del>Mistaken text.</del></p>
-<p>##8. 代码块<br><img src="http://upload-images.jianshu.io/upload_images/2926311-a8d03a6c44babb1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8. 代码块"></a>8. 代码块</h3><p><img src="http://upload-images.jianshu.io/upload_images/2926311-a8d03a6c44babb1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <p>有其他的会继续更新，献给刚使用markdown的小编。</p>
 <blockquote>
 <p>“人生有很多坑，完全可以单脚一跃而过；可是大多数人，却偏偏要绕个大圈子。”</p>
