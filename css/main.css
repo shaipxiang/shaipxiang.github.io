@@ -1802,7 +1802,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fb8550;
+  background: #14c4ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2971,7 +2971,7 @@ hr {
   border-bottom: none;
 }
 .sidebar a:hover {
-  color: #a020f0;
+  color: #0c0b0b;
 }
 .site-state-item {
   display: inline-block;
@@ -2979,8 +2979,8 @@ hr {
   border-left: 1px solid #649ab6;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #649ab6;
-  border-bottom-color: #649ab6;
+  color: #a020f0;
+  border-bottom-color: #a020f0;
 }
 .sidebar-nav li:hover {
   color: #0c0b0b;
@@ -2992,10 +2992,10 @@ hr {
   background: #649ab6;
 }
 .post-toc .nav .active>a {
-  color: #4f7e96;
+  color: #40e0d0;
 }
 .post-toc ol a:hover {
-  color: #7784ba;
+  color: #40e0d0;
 }
 .sidebar-nav .sidebar-nav-active:hover {
   color: #37596c;
