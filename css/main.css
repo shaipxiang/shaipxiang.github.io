@@ -1802,7 +1802,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff799c;
+  background: #fb8550;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2971,7 +2971,7 @@ hr {
   border-bottom: none;
 }
 .sidebar a:hover {
-  color: #0c0b0b;
+  color: #a020f0;
 }
 .site-state-item {
   display: inline-block;
