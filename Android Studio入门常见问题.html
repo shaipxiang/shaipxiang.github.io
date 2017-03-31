@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="Android-故事汇">
 <meta property="og:description" content="Eclipse转到Android Studio上的时候，真是适应了好长时间，本来是记录在有道云里面的，后来萌发了自己做博客的想法，还是移到博客上，和大家一起讨论学习。">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2926311-95d15673eb47efe1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-03-31T09:58:10.647Z">
+<meta property="og:updated_time" content="2017-03-31T10:01:35.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android Studio入门常见问题">
 <meta name="twitter:description" content="Eclipse转到Android Studio上的时候，真是适应了好长时间，本来是记录在有道云里面的，后来萌发了自己做博客的想法，还是移到博客上，和大家一起讨论学习。">
@@ -421,7 +421,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  863 字
+                  862 字
                 </span>
               
 
@@ -465,11 +465,10 @@
 <hr>
 <h3 id="HTTP代理设置"><a href="#HTTP代理设置" class="headerlink" title="HTTP代理设置"></a>HTTP代理设置</h3><p>1.到android studio安装目录，打开bin目录，编辑idea.properties, 在文件末尾添加:</p>
 <pre><code>disable.android.first.run=true
-</code></pre><p>&emsp;&emsp;这将禁用第一次运行</p>
+</code></pre><p>&emsp;这将禁用第一次运行</p>
 <p>2.再次打开android studio将进入欢迎页面，点击Config…, 搜索HTTP，即可设置HTTP代理</p>
 <p>3.删掉Step 1 中所加的那一行，再次启动android studio，就可以使用你的HTTP代理下载SDK等组件了。</p>
-<p>###保存Studio配置</p>
-<ol>
+<h3 id="保存Studio配置"><a href="#保存Studio配置" class="headerlink" title="保存Studio配置"></a>保存Studio配置</h3><ol>
 <li><p>选择 File -&gt; Export Settings…，选择到处后的存放地址，保存为 settings.jar</p>
 </li>
 <li><p>把这个 jar 包保存起来。</p>
@@ -477,29 +476,25 @@
 <li><p>换机或者重装导入配置，选择 File -&gt; Import Settings…，然后选择第二步中的 jar 包，选择需要导入的模块，点击 OK 即可。</p>
 </li>
 </ol>
-<p>###SDK更新失败</p>
-<ol>
+<h3 id="SDK更新失败"><a href="#SDK更新失败" class="headerlink" title="SDK更新失败"></a>SDK更新失败</h3><ol>
 <li><p>打开SDK目录 安装时默认地址为C:\Users\Administrator\AppData\Local\Android\sdk 。打开SDKManager，选择Tools下的Options，将如图所示选项勾上。也就是others中第一个选项.</p>
 </li>
 <li><p>然后打开C:\WINDOWS\system32\drivers\etc中的hosts文件，在最后一行添加如下内容：</p>
 <p> 　　203.208.46.146 www.google.com<br> 　　74.125.113.121 developer.android.com<br> 　　203.208.46.146 dl.google.com<br> 　　203.208.46.146 dl-ssl.google.com</p>
 </li>
 </ol>
-<p>###引用jar文件</p>
-<p>1、将jar包拷贝到moudle的libs目录下</p>
+<h3 id="引用jar文件"><a href="#引用jar文件" class="headerlink" title="引用jar文件"></a>引用jar文件</h3><p>1、将jar包拷贝到moudle的libs目录下</p>
 <p>2、右键jar，Add as library,然后选择moudle</p>
 <p>3、打开App目录下有个build.gradle文件应该项目结构文件，上述的动作只是为了在在文件下添加</p>
 <pre><code>dependencies {
   compile files(&apos;libs/android-support-v13.jar&apos;)
   compile files(&apos;libs/odata4j-0.7.0-clientbundle.jar&apos;)
 }
-</code></pre><p>###引用so文件</p>
-<pre><code>java.lang.UnsatisfiedLinkError: Couldn&apos;t load library xxxx from loader dalvik.system.PathClassLoader
+</code></pre><h3 id="引用so文件"><a href="#引用so文件" class="headerlink" title="引用so文件"></a>引用so文件</h3><pre><code>java.lang.UnsatisfiedLinkError: Couldn&apos;t load library xxxx from loader dalvik.system.PathClassLoader
 </code></pre><p>&emsp;引用so文件失败</p>
 <p>&emsp;1、在“src/main”目录中新建名为“jniLibs”的目录；</p>
 <p>&emsp;2、复制so文件到“jniLibs”目录内。</p>
-<p>###引用第三方源码库</p>
-<p>1、将第三方源码导入同一个project或者放在同文件夹下</p>
+<h3 id="引用第三方源码库"><a href="#引用第三方源码库" class="headerlink" title="引用第三方源码库"></a>引用第三方源码库</h3><p>1、将第三方源码导入同一个project或者放在同文件夹下</p>
 <p>2、接下来需要手工修改项目跟目录下settings.gadle 添加</p>
 <pre><code>include &apos;:App&apos;,&apos;:Httpzoid&apos;
 </code></pre><p>这里必须手工修改没有其他方法</p>
@@ -509,46 +504,44 @@
 }
 </code></pre><p>3、在项目Httpzoid目录下添加一个build.gradle的这个文件，内容如下</p>
 <pre><code>buildscript {
-repositories {
-mavenCentral()
-}
-dependencies {
-classpath &apos;com.android.tools.build:gradle:0.6.+&apos;
-}
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath &apos;com.android.tools.build:gradle:0.6.+&apos;
+    }
 }
 apply plugin: &apos;android-library&apos;
 
 repositories {
-mavenCentral()
+    mavenCentral()
 }
 
 android {
-compileSdkVersion 18
-buildToolsVersion &quot;17.0.0&quot;
+    compileSdkVersion 18
+    buildToolsVersion &quot;17.0.0&quot;
 
-defaultConfig {
-minSdkVersion 14
-targetSdkVersion 18
+    defaultConfig {
+    minSdkVersion 14
+    targetSdkVersion 18
 }
 
 
 sourceSets {
-main {
-manifest.srcFile &apos;AndroidManifest.xml&apos;
-java.srcDirs = [&apos;src&apos;]
-resources.srcDirs = [&apos;src&apos;]
-aidl.srcDirs = [&apos;src&apos;]
-renderscript.srcDirs = [&apos;src&apos;]
-}
-}
+    main {
+        manifest.srcFile &apos;AndroidManifest.xml&apos;
+        java.srcDirs = [&apos;src&apos;]
+        resources.srcDirs = [&apos;src&apos;]
+        aidl.srcDirs = [&apos;src&apos;]
+        renderscript.srcDirs = [&apos;src&apos;]
+    }
 }
 
 dependencies {
-compile &apos;com.android.support:appcompat-v7:+&apos;
-compile files(&apos;libs/gson-2.2.4.jar&apos;)
+    compile &apos;com.android.support:appcompat-v7:+&apos;
+    compile files(&apos;libs/gson-2.2.4.jar&apos;)
 }
-</code></pre><p>###中文乱码问题</p>
-<ul>
+</code></pre><h3 id="中文乱码问题"><a href="#中文乱码问题" class="headerlink" title="中文乱码问题"></a>中文乱码问题</h3><ul>
 <li>IDE乱码</li>
 </ul>
 <p>File &gt; Settings &gt; Appearance &amp; Behavior &gt; Appearance，将default fonts改为SimSun</p>
@@ -567,13 +560,13 @@ compile files(&apos;libs/gson-2.2.4.jar&apos;)
 <pre><code>tasks.withType(JavaCompile) {  
     options.encoding = &quot;UTF-8&quot;  
 }  
-</code></pre><p>###利用JavaDoc生成项目API文档</p>
-<ol>
-<li>在Android Studio中的菜单项中点击Generate JavaDoc</li>
-<li>2.如果你的项目中有以“UTF8”做编码的java文件，那么你在这里必须要带上参数: -encoding utf-8 -charset utf-8，否则会报错</li>
+</code></pre><h3 id="利用JavaDoc生成项目API文档"><a href="#利用JavaDoc生成项目API文档" class="headerlink" title="利用JavaDoc生成项目API文档"></a>利用JavaDoc生成项目API文档</h3><ol>
+<li><p>在Android Studio中的菜单项中点击Generate JavaDoc</p>
+</li>
+<li><p>如果你的项目中有以“UTF8”做编码的java文件，那么你在这里必须要带上参数: -encoding utf-8 -charset utf-8，否则会报错</p>
+</li>
 </ol>
-<p>###删除不用的项目</p>
-<p>1.最新版的Android studio已经可以完全删除项目了，点击File——Project Structure</p>
+<h3 id="删除不用的项目"><a href="#删除不用的项目" class="headerlink" title="删除不用的项目"></a>删除不用的项目</h3><p>1.最新版的Android studio已经可以完全删除项目了，点击File——Project Structure</p>
 <p>2.在Project Structure页面，选中要删除的项目，点击上面的减号图标。</p>
 <p>3.弹出“Remove Module”的弹框，点击Yes，然后ok</p>
 <p>4.在项目上点击右键，delete就可以把module删除掉了</p>
@@ -884,7 +877,7 @@ compile files(&apos;libs/gson-2.2.4.jar&apos;)
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP代理设置"><span class="nav-number">1.</span> <span class="nav-text">HTTP代理设置</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP代理设置"><span class="nav-number">1.</span> <span class="nav-text">HTTP代理设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#保存Studio配置"><span class="nav-number">2.</span> <span class="nav-text">保存Studio配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#SDK更新失败"><span class="nav-number">3.</span> <span class="nav-text">SDK更新失败</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用jar文件"><span class="nav-number">4.</span> <span class="nav-text">引用jar文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用so文件"><span class="nav-number">5.</span> <span class="nav-text">引用so文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用第三方源码库"><span class="nav-number">6.</span> <span class="nav-text">引用第三方源码库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#中文乱码问题"><span class="nav-number">7.</span> <span class="nav-text">中文乱码问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#利用JavaDoc生成项目API文档"><span class="nav-number">8.</span> <span class="nav-text">利用JavaDoc生成项目API文档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除不用的项目"><span class="nav-number">9.</span> <span class="nav-text">删除不用的项目</span></a></li></ol></div>
             
 
           </div>
