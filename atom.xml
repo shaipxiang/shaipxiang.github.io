@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-03-31T10:01:35.064Z</updated>
+  <updated>2017-03-31T10:09:00.487Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Studio常用插件</title>
+    <link href="http://www.shaipxiang.com/Android%20Studio%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html"/>
+    <id>http://www.shaipxiang.com/Android Studio常用插件.html</id>
+    <published>2017-03-30T11:22:25.000Z</published>
+    <updated>2017-03-31T10:09:00.487Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-df8e33e1763dbcad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br></div>
+
+<p>导读：Android Studio是一个功能全面的开发环境，装备了为各种设备——从智能手表到汽车——开发Android应用程序所需要的所有功能。不过总是有改进的余地，Android Studio对此提供了对第三方插件的支持，下面本文将介绍一些比较实用的插件。</p>
+<hr>
+<h3 id="第三方插件安装方法："><a href="#第三方插件安装方法：" class="headerlink" title="第三方插件安装方法："></a>第三方插件安装方法：</h3><p>打开Android Studio，Settings—&gt;Plugins，选择Browser…在线安装，输入插件名字搜索安装既可，也可以选择磁盘安装，安装完成后重启生效。</p>
+<blockquote>
+<p>注意事项：代理设置关闭才能搜索到插件。</p>
+</blockquote>
+<h3 id="1、Sexy-Editror"><a href="#1、Sexy-Editror" class="headerlink" title="1、Sexy Editror"></a>1、Sexy Editror</h3><pre><code>设置编辑区背景图片，作用不大，只是为了好玩^_^
+</code></pre><h3 id="2、ButterKnife-Zelezny"><a href="#2、ButterKnife-Zelezny" class="headerlink" title="2、ButterKnife Zelezny"></a>2、ButterKnife Zelezny</h3><pre><code>ButterKnife 注解生成器，使用起来非常简单方便。
+</code></pre><h3 id="3、SelectorChapek"><a href="#3、SelectorChapek" class="headerlink" title="3、SelectorChapek"></a>3、<a href="https://github.com/inmite/android-selector-chapek" target="_blank" rel="external">SelectorChapek</a></h3><pre><code>资源文件生成selector文件专用，只需要设置好图片的规范命名即可。
+</code></pre><p><img src="http://upload-images.jianshu.io/upload_images/2926311-d4aab755d610826a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="命名规范"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-9bae09b79174a8ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="生成文件示例"></p>
+<h3 id="4、GsonFormat"><a href="#4、GsonFormat" class="headerlink" title="4、GsonFormat"></a>4、<a href="https://github.com/zzz40500/GsonFormat" target="_blank" rel="external">GsonFormat</a></h3><pre><code>现在大多数服务端api都以json数据格式返回，而客户端需要根据api接口生成相应的实体类，这个插件把这个过程自动化了，赶紧使用起来吧。
+</code></pre><h3 id="5、Android-Parcelable-Code-Generator"><a href="#5、Android-Parcelable-Code-Generator" class="headerlink" title="5、Android Parcelable Code Generator"></a>5、Android Parcelable Code Generator</h3><p>Android中的序列化有两种方式，分别是实现Serializable接口和Parcelable接口，但在Android中是推荐使用Parcelable，只不过我们这种方式要比Serializable方式要繁琐，那么有了这个插件一切就ok了。</p>
+<h3 id="6、LeakCanary"><a href="#6、LeakCanary" class="headerlink" title="6、LeakCanary"></a>6、LeakCanary</h3><p>Android 和 Java 内存泄露检测,开发阶段使用，强烈建议。<br>使用说明：<a href="https://www.liaohuqiu.net/cn/posts/leak-canary-read-me/" target="_blank" rel="external">https://www.liaohuqiu.net/cn/posts/leak-canary-read-me/</a><br>推荐博文：<a href="http://www.jianshu.com/p/a8900eb3de12" target="_blank" rel="external">http://www.jianshu.com/p/a8900eb3de12</a></p>
+<h3 id="7、adb-idea"><a href="#7、adb-idea" class="headerlink" title="7、adb idea"></a>7、adb idea</h3><p>开发阶段快速进行安装app缓存清空，便于测试调试。</p>
+<h3 id="8、Android-Postfix-completion-强大"><a href="#8、Android-Postfix-completion-强大" class="headerlink" title="8、Android Postfix completion 强大"></a>8、Android Postfix completion 强大</h3><p>根据后缀提醒快速完成代码</p>
+<h3 id="9、Adb-wifi-adb-wifiadb"><a href="#9、Adb-wifi-adb-wifiadb" class="headerlink" title="9、Adb wifi  /  adb wifiadb"></a>9、Adb wifi  /  adb wifiadb</h3><p>无线调试应用</p>
+<h3 id="10、JsonOnlineViewer"><a href="#10、JsonOnlineViewer" class="headerlink" title="10、JsonOnlineViewer"></a>10、JsonOnlineViewer</h3><p>可实现直接在android studio中调试接口数据，可以选择请求类型，自定义请求头及请求体，json数据格式化后展示，配合着Gsonformat会不会不错呢？</p>
+<h3 id="11、Android-Holo-Colors-Generator"><a href="#11、Android-Holo-Colors-Generator" class="headerlink" title="11、Android Holo Colors Generator"></a>11、<strong>Android Holo Colors Generator</strong></h3><p>没用过，Android Holo Colors Generator是一个允许你为你的应用程序随心所欲地创建Android布局组件的插件。此插件会生成所有必要的可在项目中使用的相关的XML画板和样式资源。</p>
+<h3 id="12、codota"><a href="#12、codota" class="headerlink" title="12、codota"></a>12、codota</h3><p>该网站搜集了大量的代码，号称超过700W的代码实例。</p>
+<h3 id="13、GradleDependenciesHelperPlugin"><a href="#13、GradleDependenciesHelperPlugin" class="headerlink" title="13、GradleDependenciesHelperPlugin"></a>13、<strong><a href="https://github.com/ligi/GradleDependenciesHelperPlugin" target="_blank" rel="external">GradleDependenciesHelperPlugin</a></strong></h3><p>Maven gradle依赖自动补全</p>
+<h3 id="14、Genymotion-强大强大"><a href="#14、Genymotion-强大强大" class="headerlink" title="14、Genymotion   强大强大"></a>14、<strong>Genymotion </strong>  强大强大</h3><p>注册下载安装Genymotion<br>android studio安装插件，重启后关联Genymotion安装目录，重启电脑生效<br>  Genymotion模拟器下载失败解决方法：</p>
+<ul>
+<li><p>到C:\Users\yourname<br>\AppData\Local\Genymobile\Genymotion\ova该目录下找ova文件，yourname就是你自己的电脑用户名。</p>
+</li>
+<li><p>拼接网址，直接用下载工具下载ova文件<br><a href="http://files2.genymotion.com/dists/6.0.0/ova/genymotion_vbox86p_6.0_151118_185105.ova" target="_blank" rel="external">http://files2.genymotion.com/dists/6.0.0<br>/ova/genymotion_vbox86p_6.0_151118_185105.ova
+</a><br>上面的网址就是下载网址，直接用浏览器或者下载工具下载即可。<br>前面的6.0.0就是版本号，后面标红色的文件就是你的ova文件名称。</p>
+</li>
+<li><p>如果遇到不能导入ova的情况，直接升级virtual box即可。 virtual box 存放镜像的位置为C:\Users\yourname<br>\VirtualBox VMs\，升级virtualbox后直接到该文件夹下</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2926311-df8e33e1763dbcad.png?imageMogr2/auto-orient/strip%7C
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://www.shaipxiang.com/categories/Android-Studio/"/>
+    
+    
+      <category term="Android Studio" scheme="http://www.shaipxiang.com/tags/Android-Studio/"/>
+    
+  </entry>
   
   <entry>
     <title>Android Studio入门常见问题</title>
