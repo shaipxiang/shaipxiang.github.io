@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="Android-故事汇">
 <meta property="og:description" content="正则表达式也称为规则表达式或字符串规则表达式，此文记录正则表达式的一些基本用法，适合正则入门使用。">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2926311-b09ddca34ef2e8ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-03-31T07:33:00.859Z">
+<meta property="og:updated_time" content="2017-03-31T07:39:37.522Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="正则学习记录">
 <meta name="twitter:description" content="正则表达式也称为规则表达式或字符串规则表达式，此文记录正则表达式的一些基本用法，适合正则入门使用。">
@@ -464,15 +464,16 @@
 <h2 id="基本规则"><a href="#基本规则" class="headerlink" title="基本规则"></a>基本规则</h2><p><strong>示例</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">英文文档中查找单词 hi</div><div class="line">正则： \bhi\b</div><div class="line">\b代表空格，隔离him,history等单词</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">三位区号8位数字的电话号</div><div class="line">正则： 0\d\d-\d\d\d\d\d\d\d\d      简化： 0\d&#123;2&#125;-\d&#123;8&#125;</div></pre></td></tr></table></figure>
-<h3 id="常用元字符"><a href="#常用元字符" class="headerlink" title="常用元字符"></a>常用元字符</h3><blockquote>
-<pre><code>^   匹配字符串的开始
-$  匹配字符串的结束
-.   匹配除换行符外的所有字符
-\d 匹配数字
-\w 匹配字符或数字或下划线或汉字
-\s 匹配任意的空白符
-\b 匹配单词的开始或结束
-</code></pre></blockquote>
+<h3 id="常用元字符"><a href="#常用元字符" class="headerlink" title="常用元字符"></a>常用元字符</h3><ul>
+<li>^   匹配字符串的开始</li>
+<li>$  匹配字符串的结束</li>
+<li>.   匹配除换行符外的所有字符</li>
+<li>\d 匹配数字</li>
+<li>\w 匹配字符或数字或下划线或汉字</li>
+<li>\s 匹配任意的空白符</li>
+<li>\b 匹配单词的开始或结束</li>
+</ul>
+<hr>
 <h3 id="匹配类型-POSIX和PEAL"><a href="#匹配类型-POSIX和PEAL" class="headerlink" title="匹配类型 POSIX和PEAL"></a>匹配类型 POSIX和PEAL</h3><h4 id="POSIX"><a href="#POSIX" class="headerlink" title="POSIX:"></a>POSIX:</h4><ul>
 <li>[:upper:]        匹配所有的大写字母</li>
 <li>[:lower:]        匹配所有的小写字母</li>
@@ -491,9 +492,10 @@ $  匹配字符串的结束
 <li>\w     任一“字”可见的字符</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">匹配QQ号  5-12位</div><div class="line">表达式：  ^\d&#123;5,12&#125;$</div></pre></td></tr></table></figure>
+<hr>
 <h3 id="字符转义"><a href="#字符转义" class="headerlink" title="字符转义"></a>字符转义</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">转义字符     \</div><div class="line">比如  匹配\      表达式：\\\</div><div class="line">类似  \\.    \\*   \\+等等</div></pre></td></tr></table></figure>
-<p>###常用限定符</p>
-<ul>
+<hr>
+<h3 id="常用限定符"><a href="#常用限定符" class="headerlink" title="常用限定符"></a>常用限定符</h3><ul>
 <li><em>*</em>    匹配0次或多次</li>
 <li>?      匹配0次或1次</li>
 <li><ul>
@@ -504,12 +506,14 @@ $  匹配字符串的结束
 <li>{n,}   匹配n次或更多次</li>
 <li>{n,m}匹配n到m次</li>
 </ul>
+<hr>
 <h3 id="字符范围"><a href="#字符范围" class="headerlink" title="字符范围"></a>字符范围</h3><ul>
 <li>[aeiou]   匹配任意一个元音字母</li>
 <li>[.?!]        匹配标点符号</li>
 <li>所以[0-9]   等同  \d</li>
 <li>[a-z0-9A-Z_]  等同 \w</li>
 </ul>
+<hr>
 <h3 id="反义"><a href="#反义" class="headerlink" title="反义"></a>反义</h3><p>有定义的元字符大写，即为反义，字符集前面加上^ 也为反义</p>
 <ul>
 <li>\W      匹配任意不是字母、数字、下划线或汉字的字符</li>
@@ -519,6 +523,7 @@ $  匹配字符串的结束
 <li>[^X]     匹配任一不是X的字符</li>
 <li>[^aeiou]  匹配任一不是元音字母的字符</li>
 </ul>
+<hr>
 <h3 id="并列"><a href="#并列" class="headerlink" title="并列"></a>并列</h3><ul>
 <li>用  |  表示或者，合并为一组使用</li>
 <li>用 （）表示是一个字表达式</li>
@@ -835,7 +840,7 @@ $  匹配字符串的结束
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本规则"><span class="nav-number">1.</span> <span class="nav-text">基本规则</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用元字符"><span class="nav-number">1.1.</span> <span class="nav-text">常用元字符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#匹配类型-POSIX和PEAL"><span class="nav-number">1.2.</span> <span class="nav-text">匹配类型 POSIX和PEAL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#POSIX"><span class="nav-number">1.2.1.</span> <span class="nav-text">POSIX:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PERL"><span class="nav-number">1.2.2.</span> <span class="nav-text">PERL:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符转义"><span class="nav-number">1.3.</span> <span class="nav-text">字符转义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符范围"><span class="nav-number">1.4.</span> <span class="nav-text">字符范围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#反义"><span class="nav-number">1.5.</span> <span class="nav-text">反义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并列"><span class="nav-number">1.6.</span> <span class="nav-text">并列</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本规则"><span class="nav-number">1.</span> <span class="nav-text">基本规则</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用元字符"><span class="nav-number">1.1.</span> <span class="nav-text">常用元字符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#匹配类型-POSIX和PEAL"><span class="nav-number">1.2.</span> <span class="nav-text">匹配类型 POSIX和PEAL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#POSIX"><span class="nav-number">1.2.1.</span> <span class="nav-text">POSIX:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PERL"><span class="nav-number">1.2.2.</span> <span class="nav-text">PERL:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符转义"><span class="nav-number">1.3.</span> <span class="nav-text">字符转义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用限定符"><span class="nav-number">1.4.</span> <span class="nav-text">常用限定符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符范围"><span class="nav-number">1.5.</span> <span class="nav-text">字符范围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#反义"><span class="nav-number">1.6.</span> <span class="nav-text">反义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并列"><span class="nav-number">1.7.</span> <span class="nav-text">并列</span></a></li></ol></li></ol></div>
             
 
           </div>
