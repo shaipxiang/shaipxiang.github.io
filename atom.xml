@@ -63,44 +63,11 @@
   </entry>
   
   <entry>
-    <title>my new post</title>
-    <link href="http://www.shaipxiang.com/my-new-post.html"/>
-    <id>http://www.shaipxiang.com/my-new-post.html</id>
-    <published>2017-03-27T02:13:39.000Z</published>
-    <updated>2017-03-31T04:00:46.964Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h3><hr>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>萨芬敬爱的司法地方阿道夫</p>
-<h3 id="测速"><a href="#测速" class="headerlink" title="测速"></a>测速</h3><p>阿斯顿发大</p>
-<ul>
-<li>ce </li>
-<li>cesf sd</li>
-<li>sdfadsfaf<h3 id="adsfljadlfja"><a href="#adsfljadlfja" class="headerlink" title="adsfljadlfja"></a>adsfljadlfja</h3><blockquote>
-<p>这是个什么地方</p>
-</blockquote>
-</li>
-</ul>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28947001&auto=1&height=66"></iframe>]]></content>
-    
-    <summary type="html">
-    
-      测试博客描写
-    
-    </summary>
-    
-      <category term="测试" scheme="http://www.shaipxiang.com/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="test" scheme="http://www.shaipxiang.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://www.shaipxiang.com/hello-world.html"/>
     <id>http://www.shaipxiang.com/hello-world.html</id>
-    <published>2017-03-24T08:17:09.403Z</published>
-    <updated>2017-03-31T04:00:38.063Z</updated>
+    <published>2017-03-24T07:55:25.000Z</published>
+    <updated>2017-03-31T07:09:23.447Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -119,6 +86,10 @@
     
     </summary>
     
+      <category term="Hexo" scheme="http://www.shaipxiang.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.shaipxiang.com/tags/Hexo/"/>
     
   </entry>
   

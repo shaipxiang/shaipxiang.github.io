@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.shaipxiang.com/hello-world.html</loc>
+    <lastmod>2017-03-31T07:09:23.447Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-03-24T07:55:25.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.shaipxiang.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.shaipxiang.com/MarkDown%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E6%B1%87%E6%80%BB.html</loc>
     <lastmod>2017-03-31T07:04:01.290Z</lastmod>
     <data>
@@ -18,41 +38,6 @@
              
               <breadCrumb title="MarkDown" url="http://www.shaipxiang.com/categories/MarkDown/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.shaipxiang.com/my-new-post.html</loc>
-    <lastmod>2017-03-31T04:00:46.964Z</lastmod>
-    <data>
-        <display>
-        <title>my new post</title>
-        <pubTime>2017-03-27T02:13:39.000Z</pubTime>
-        
-        <tag>test</tag>
-         
-         
-           
-             
-              <breadCrumb title="测试" url="http://www.shaipxiang.com/categories/%E6%B5%8B%E8%AF%95/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.shaipxiang.com/hello-world.html</loc>
-    <lastmod>2017-03-31T04:00:38.063Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-03-24T08:17:09.403Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
