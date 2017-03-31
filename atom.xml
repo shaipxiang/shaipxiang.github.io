@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-03-31T10:09:00.487Z</updated>
+  <updated>2017-03-31T10:10:40.310Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.shaipxiang.com/Android%20Studio%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html"/>
     <id>http://www.shaipxiang.com/Android Studio常用插件.html</id>
     <published>2017-03-30T11:22:25.000Z</published>
-    <updated>2017-03-31T10:09:00.487Z</updated>
+    <updated>2017-03-31T10:10:40.310Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-df8e33e1763dbcad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br></div>
 
@@ -30,12 +30,12 @@
 <blockquote>
 <p>注意事项：代理设置关闭才能搜索到插件。</p>
 </blockquote>
-<h3 id="1、Sexy-Editror"><a href="#1、Sexy-Editror" class="headerlink" title="1、Sexy Editror"></a>1、Sexy Editror</h3><pre><code>设置编辑区背景图片，作用不大，只是为了好玩^_^
-</code></pre><h3 id="2、ButterKnife-Zelezny"><a href="#2、ButterKnife-Zelezny" class="headerlink" title="2、ButterKnife Zelezny"></a>2、ButterKnife Zelezny</h3><pre><code>ButterKnife 注解生成器，使用起来非常简单方便。
-</code></pre><h3 id="3、SelectorChapek"><a href="#3、SelectorChapek" class="headerlink" title="3、SelectorChapek"></a>3、<a href="https://github.com/inmite/android-selector-chapek" target="_blank" rel="external">SelectorChapek</a></h3><pre><code>资源文件生成selector文件专用，只需要设置好图片的规范命名即可。
-</code></pre><p><img src="http://upload-images.jianshu.io/upload_images/2926311-d4aab755d610826a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="命名规范"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-9bae09b79174a8ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="生成文件示例"></p>
-<h3 id="4、GsonFormat"><a href="#4、GsonFormat" class="headerlink" title="4、GsonFormat"></a>4、<a href="https://github.com/zzz40500/GsonFormat" target="_blank" rel="external">GsonFormat</a></h3><pre><code>现在大多数服务端api都以json数据格式返回，而客户端需要根据api接口生成相应的实体类，这个插件把这个过程自动化了，赶紧使用起来吧。
-</code></pre><h3 id="5、Android-Parcelable-Code-Generator"><a href="#5、Android-Parcelable-Code-Generator" class="headerlink" title="5、Android Parcelable Code Generator"></a>5、Android Parcelable Code Generator</h3><p>Android中的序列化有两种方式，分别是实现Serializable接口和Parcelable接口，但在Android中是推荐使用Parcelable，只不过我们这种方式要比Serializable方式要繁琐，那么有了这个插件一切就ok了。</p>
+<h3 id="1、Sexy-Editror"><a href="#1、Sexy-Editror" class="headerlink" title="1、Sexy Editror"></a>1、Sexy Editror</h3><p>设置编辑区背景图片，作用不大，只是为了好玩^_^</p>
+<h3 id="2、ButterKnife-Zelezny"><a href="#2、ButterKnife-Zelezny" class="headerlink" title="2、ButterKnife Zelezny"></a>2、ButterKnife Zelezny</h3><p>ButterKnife 注解生成器，使用起来非常简单方便。</p>
+<h3 id="3、SelectorChapek"><a href="#3、SelectorChapek" class="headerlink" title="3、SelectorChapek"></a>3、<a href="https://github.com/inmite/android-selector-chapek" target="_blank" rel="external">SelectorChapek</a></h3><p>资源文件生成selector文件专用，只需要设置好图片的规范命名即可。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2926311-d4aab755d610826a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="命名规范"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-9bae09b79174a8ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="生成文件示例"></p>
+<h3 id="4、GsonFormat"><a href="#4、GsonFormat" class="headerlink" title="4、GsonFormat"></a>4、<a href="https://github.com/zzz40500/GsonFormat" target="_blank" rel="external">GsonFormat</a></h3><p>现在大多数服务端api都以json数据格式返回，而客户端需要根据api接口生成相应的实体类，这个插件把这个过程自动化了，赶紧使用起来吧。</p>
+<h3 id="5、Android-Parcelable-Code-Generator"><a href="#5、Android-Parcelable-Code-Generator" class="headerlink" title="5、Android Parcelable Code Generator"></a>5、Android Parcelable Code Generator</h3><p>Android中的序列化有两种方式，分别是实现Serializable接口和Parcelable接口，但在Android中是推荐使用Parcelable，只不过我们这种方式要比Serializable方式要繁琐，那么有了这个插件一切就ok了。</p>
 <h3 id="6、LeakCanary"><a href="#6、LeakCanary" class="headerlink" title="6、LeakCanary"></a>6、LeakCanary</h3><p>Android 和 Java 内存泄露检测,开发阶段使用，强烈建议。<br>使用说明：<a href="https://www.liaohuqiu.net/cn/posts/leak-canary-read-me/" target="_blank" rel="external">https://www.liaohuqiu.net/cn/posts/leak-canary-read-me/</a><br>推荐博文：<a href="http://www.jianshu.com/p/a8900eb3de12" target="_blank" rel="external">http://www.jianshu.com/p/a8900eb3de12</a></p>
 <h3 id="7、adb-idea"><a href="#7、adb-idea" class="headerlink" title="7、adb idea"></a>7、adb idea</h3><p>开发阶段快速进行安装app缓存清空，便于测试调试。</p>
 <h3 id="8、Android-Postfix-completion-强大"><a href="#8、Android-Postfix-completion-强大" class="headerlink" title="8、Android Postfix completion 强大"></a>8、Android Postfix completion 强大</h3><p>根据后缀提醒快速完成代码</p>
