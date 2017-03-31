@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-03-31T02:07:05.469Z</updated>
+  <updated>2017-03-31T03:56:50.270Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>MarkDown基本用法汇总</title>
-    <link href="http://www.shaipxiang.com/MarkDown%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E6%B1%87%E6%80%BB.html"/>
-    <id>http://www.shaipxiang.com/MarkDown基本用法汇总.html</id>
+    <link href="http://www.shaipxiang.com/markdown_use_info"/>
+    <id>http://www.shaipxiang.com/markdown_use_info</id>
     <published>2017-03-28T07:55:25.000Z</published>
-    <updated>2017-03-31T02:07:05.469Z</updated>
+    <updated>2017-03-31T03:56:50.270Z</updated>
     
     <content type="html"><![CDATA[<p>MarkDown语言，简单易学易用，工欲善其事必先利其器，本篇主要记录MarkDown的一些基本用法。</p>
 <hr>
@@ -62,10 +62,10 @@
   
   <entry>
     <title>my new post</title>
-    <link href="http://www.shaipxiang.com/my-new-post.html"/>
-    <id>http://www.shaipxiang.com/my-new-post.html</id>
+    <link href="http://www.shaipxiang.com/my_new_post"/>
+    <id>http://www.shaipxiang.com/my_new_post</id>
     <published>2017-03-27T02:13:39.000Z</published>
-    <updated>2017-03-28T03:39:09.924Z</updated>
+    <updated>2017-03-31T03:57:12.294Z</updated>
     
     <content type="html"><![CDATA[<h3 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h3><hr>
 <h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>萨芬敬爱的司法地方阿道夫</p>
@@ -95,10 +95,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.shaipxiang.com/hello-world.html"/>
-    <id>http://www.shaipxiang.com/hello-world.html</id>
+    <link href="http://www.shaipxiang.com/undefined"/>
+    <id>http://www.shaipxiang.com/undefined</id>
     <published>2017-03-24T08:17:09.403Z</published>
-    <updated>2017-03-24T08:17:09.410Z</updated>
+    <updated>2017-03-31T03:57:33.141Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>

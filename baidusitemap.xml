@@ -4,8 +4,43 @@
 
     
   <url>
-    <loc>http://www.shaipxiang.com/MarkDown%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E6%B1%87%E6%80%BB.html</loc>
-    <lastmod>2017-03-31T02:07:05.469Z</lastmod>
+    <loc>http://www.shaipxiang.com/undefined</loc>
+    <lastmod>2017-03-31T03:57:33.141Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-03-24T08:17:09.403Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.shaipxiang.com/my_new_post</loc>
+    <lastmod>2017-03-31T03:57:12.294Z</lastmod>
+    <data>
+        <display>
+        <title>my new post</title>
+        <pubTime>2017-03-27T02:13:39.000Z</pubTime>
+        
+        <tag>test</tag>
+         
+         
+           
+             
+              <breadCrumb title="测试" url="http://www.shaipxiang.com/categories/%E6%B5%8B%E8%AF%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.shaipxiang.com/markdown_use_info</loc>
+    <lastmod>2017-03-31T03:56:50.270Z</lastmod>
     <data>
         <display>
         <title>MarkDown基本用法汇总</title>
@@ -26,40 +61,5 @@
     
     
     
-  <url>
-    <loc>http://www.shaipxiang.com/my-new-post.html</loc>
-    <lastmod>2017-03-28T03:39:09.924Z</lastmod>
-    <data>
-        <display>
-        <title>my new post</title>
-        <pubTime>2017-03-27T02:13:39.000Z</pubTime>
-        
-        <tag>test</tag>
-         
-         
-           
-             
-              <breadCrumb title="测试" url="http://www.shaipxiang.com/categories/%E6%B5%8B%E8%AF%95/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-    
-    
-  <url>
-    <loc>http://www.shaipxiang.com/hello-world.html</loc>
-    <lastmod>2017-03-24T08:17:09.410Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-03-24T08:17:09.403Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
