@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-03-31T09:28:35.735Z</updated>
+  <updated>2017-03-31T09:33:13.809Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.shaipxiang.com/MarkDown%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7.html"/>
     <id>http://www.shaipxiang.com/MarkDown一些使用小技巧.html</id>
     <published>2017-03-28T11:32:25.000Z</published>
-    <updated>2017-03-31T09:28:35.735Z</updated>
+    <updated>2017-03-31T09:33:13.809Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-3fa0735c959c7173.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"><br></div>
 
@@ -40,9 +40,11 @@
 <blockquote>
 <p>&emsp;&emsp;天山鸟飞绝，万径人踪灭。</p>
 </blockquote>
-<h3 id="代码的插入"><a href="#代码的插入" class="headerlink" title="代码的插入"></a>代码的插入</h3><h4 id="1-使用符号"><a href="#1-使用符号" class="headerlink" title="1. 使用符号"></a>1. 使用符号</h4><p>前后使用三个 ```</p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">this is code!</div><div class="line">Are you ok?</div></pre></td></tr></table></figure>
-</code></pre><h4 id="2、4个空格或者1个制表符"><a href="#2、4个空格或者1个制表符" class="headerlink" title="2、4个空格或者1个制表符"></a>2、4个空格或者1个制表符</h4><p>示例：</p>
+<h3 id="代码的插入"><a href="#代码的插入" class="headerlink" title="代码的插入"></a>代码的插入</h3><h4 id="1-使用符号"><a href="#1-使用符号" class="headerlink" title="1. 使用符号"></a>1. 使用符号</h4><p>前后使用三个     </p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">	</div><div class="line">```  	</div><div class="line">	this is code!</div><div class="line">	Are you ok?</div></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="2、4个空格或者1个制表符"><a href="#2、4个空格或者1个制表符" class="headerlink" title="2、4个空格或者1个制表符"></a>2、4个空格或者1个制表符</h4><p>示例：</p>
 <pre><code>[TAB]你好，今天吃了没？
 </code></pre><p>显示效果：</p>
 <pre><code>你好，今天吃了没？
