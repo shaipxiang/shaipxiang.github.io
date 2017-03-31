@@ -4,23 +4,8 @@
 
     
   <url>
-    <loc>http://www.shaipxiang.com/undefined.html</loc>
-    <lastmod>2017-03-31T03:57:33.141Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-03-24T08:17:09.403Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.shaipxiang.com/my_new_post.html</loc>
-    <lastmod>2017-03-31T03:57:12.294Z</lastmod>
+    <loc>http://www.shaipxiang.com/my-new-post.html</loc>
+    <lastmod>2017-03-31T04:00:46.964Z</lastmod>
     <data>
         <display>
         <title>my new post</title>
@@ -39,8 +24,8 @@
 
     
   <url>
-    <loc>http://www.shaipxiang.com/markdown_use_info.html</loc>
-    <lastmod>2017-03-31T03:56:50.270Z</lastmod>
+    <loc>http://www.shaipxiang.com/MarkDown%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E6%B1%87%E6%80%BB.html</loc>
+    <lastmod>2017-03-31T04:00:42.854Z</lastmod>
     <data>
         <display>
         <title>MarkDown基本用法汇总</title>
@@ -53,6 +38,21 @@
              
               <breadCrumb title="MarkDown" url="http://www.shaipxiang.com/categories/MarkDown/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.shaipxiang.com/hello-world.html</loc>
+    <lastmod>2017-03-31T04:00:38.063Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-03-24T08:17:09.403Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>
