@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.shaipxiang.com/about/index.html</loc>
+    
+    <lastmod>2017-04-01T02:37:31.969Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html</loc>
     
     <lastmod>2017-04-01T02:11:44.460Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://www.shaipxiang.com/Hello_World.html</loc>
     
     <lastmod>2017-04-01T01:48:24.791Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/about/index.html</loc>
-    
-    <lastmod>2017-03-29T10:25:32.015Z</lastmod>
     
   </url>
   
