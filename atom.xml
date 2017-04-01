@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-04-01T01:52:11.003Z</updated>
+  <updated>2017-04-01T02:11:44.460Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -14,6 +14,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Studio Code Template个性化设置</title>
+    <link href="http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html"/>
+    <id>http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html</id>
+    <published>2017-03-31T11:22:25.000Z</published>
+    <updated>2017-04-01T02:11:44.460Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://upload-images.jianshu.io/upload_images/2926311-cf8fb9f33104bac6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" with="500" high="400"><br></div>
+
+<p><strong>题注：</strong>Android Studio的体验性确实要比Eclipse上的效率高，下面的几点小配置可能对你的代码规范起到一点小小的作用</p>
+<hr>
+<h3 id="导读"><a href="#导读" class="headerlink" title="导读"></a>导读</h3><ul>
+<li>添加文件描述</li>
+<li>添加方法注释</li>
+<li>logcat配置</li>
+</ul>
+<hr>
+<h3 id="添加文件描述"><a href="#添加文件描述" class="headerlink" title="添加文件描述"></a>添加文件描述</h3><p>step1: 点击 setting&gt;&gt;Editor&gt;&gt;File and code Templates</p>
+<p>step2: 选中includes标签</p>
+<p>step3: 点击File Header</p>
+<p>step4: 在右边输入框输入以下内容</p>
+<pre><code>/** 
+  * author: ${USER} 
+  * created on: ${DATE} ${TIME} 
+  * description: 
+  */
+</code></pre><h3 id="添加方法注释"><a href="#添加方法注释" class="headerlink" title="添加方法注释"></a>添加方法注释</h3><p>step1: 点击 setting&gt;&gt;Editor&gt;&gt;File and code Templates</p>
+<p>step2: 选中includes标签 </p>
+<p>step3: 点击绿色的”+”新建一个名为”Method Header”的子元素 </p>
+<p>step4: 选中新建的”Method Header”，在右边输入框输入以下内容，点击OK</p>
+<pre><code>/**
+ * description: &lt;一句话功能简述&gt; 
+ * @param [参数1] [参数1说明] 
+ * @param [参数2] [参数2说明] 
+ * @return [返回类型说明] 
+ * @exception/throws [违例类型] [违例说明] 
+ * @see [类、类#方法、类#成员] 
+ */
+</code></pre><p>step5: settings&gt;&gt;keymap&gt;&gt;Other&gt;&gt;fix doc comment </p>
+<p>step6:右击fix doc comment 选择 Add Keyboard shortcut </p>
+<p>step7:按下自己喜欢的快捷键,点击OK，再点击OK</p>
+<h3 id="Logcat配置"><a href="#Logcat配置" class="headerlink" title="Logcat配置"></a>Logcat配置</h3><p>File-&gt;Settings 或Ctrl + Alt +S 找到 Editor -&gt; Colors &amp;Fonts -&gt; Android Logcat 或在上面的搜索框中输入Logcat 点中Verbose , Info, Debug等选项，然后在后面将Use Inberited attributes 去掉勾选 再将 Foreground 前的复选框选上，就可以双击后面的框框去选择颜色了 Apply–&gt;OK</p>
+<pre><code>Log级别色值
+VERBOSE BBBBBB
+DEBUG0070BB
+INFO   48BB31
+WARN BBBB23
+ERRORFF0006
+ASSERT   8F0005
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/2926311-cf8fb9f33104bac6.png?imageMogr2/auto-orient/strip%7C
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://www.shaipxiang.com/categories/Android-Studio/"/>
+    
+    
+      <category term="Android Studio" scheme="http://www.shaipxiang.com/tags/Android-Studio/"/>
+    
+  </entry>
   
   <entry>
     <title>Android Studio常用插件</title>
