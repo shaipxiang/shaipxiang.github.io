@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Android-故事汇</title>
-  <subtitle>人生何处知相似,应似飞鸿踏雪泥</subtitle>
+  <title>人生几何</title>
+  <subtitle>select * from life.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>

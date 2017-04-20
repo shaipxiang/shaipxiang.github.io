@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.shaipxiang.com/about/index.html</loc>
+    
+    <lastmod>2017-04-20T05:44:25.826Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.shaipxiang.com/2017/wenxue_record.html</loc>
     
     <lastmod>2017-04-20T03:42:08.414Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://www.shaipxiang.com/2017/regular_record.html</loc>
     
     <lastmod>2017-04-01T06:23:45.931Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/about/index.html</loc>
-    
-    <lastmod>2017-04-01T04:01:21.260Z</lastmod>
     
   </url>
   
