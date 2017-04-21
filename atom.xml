@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-04-20T09:44:47.115Z</updated>
+  <updated>2017-04-21T02:16:28.804Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -16,11 +16,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Next个人博客的搭建（二）</title>
+    <link href="http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html"/>
+    <id>http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html</id>
+    <published>2017-04-21T02:55:25.000Z</published>
+    <updated>2017-04-21T02:16:28.804Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
+
+<p><strong>题注：</strong> 昨天记录了下博客框架的搭建，并托管到了GitHub上面，但毕竟Github服务器再国外，一国内访问速度较慢，另外搜索引擎收录比较麻烦 ，所以还是建议买个域名，将博客设定在域名上，这样也比较方便记忆</p>
+<hr>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>我是在<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>购买的域名，比较常用的有com\cn\top等，我购买的是com域名，新用户39元/年，比较便宜。首先查询自己想要的域名是否注册，如果没有注册的话，直接购买就可以了。</p>
+<h2 id="设置域名解析"><a href="#设置域名解析" class="headerlink" title="设置域名解析"></a>设置域名解析</h2><p><img src="http://i.imgur.com/as7k3zM.png" alt=""><br>上面是我购买的域名，我用的是 <a href="www.shaipxiang.com">shaipxiang.com</a>,点击后面的 <code>解析</code> 对域名添加域名解析<br><img src="http://i.imgur.com/LKR2M5X.png" alt=""><br>这是我域名解析配置信息，你可以ping一下Github上面的博客的地址，看看ip地址多少，自行设置一下，由于github服务器在国外，所以这里我将代码同时托管到了GitHub和Coding上面，并同时配置了域名，配置coding前ping 220ms,后45ms，访问速度提升了一大截。</p>
+<p>过几分钟后，访问 <a href="www.shaipxiang.com">www.shaipxiang.com</a>,博客就展示在我们购买的域名上了。</p>
+<p>本节内容比较少，由于工作原因，很多东西记录的不仔细，如果大家有不清楚的，可以给我留言我们共同探讨。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      Hexo Next搭建个人博客系列二，域名配置
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.shaipxiang.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.shaipxiang.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo Next个人博客的搭建（一）</title>
     <link href="http://www.shaipxiang.com/2017/hexo_next_blog_build.html"/>
     <id>http://www.shaipxiang.com/2017/hexo_next_blog_build.html</id>
     <published>2017-04-20T05:55:25.000Z</published>
-    <updated>2017-04-20T09:44:47.115Z</updated>
+    <updated>2017-04-20T09:49:08.695Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
 
