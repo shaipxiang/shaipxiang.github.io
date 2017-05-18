@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.shaipxiang.com/record/index.html</loc>
+    
+    <lastmod>2017-05-18T05:35:24.455Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.shaipxiang.com/2017/sophisticated_record.html</loc>
+    
+    <lastmod>2017-05-02T06:47:45.510Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html</loc>
     
     <lastmod>2017-04-21T02:16:28.804Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>http://www.shaipxiang.com/2017/regular_record.html</loc>
     
     <lastmod>2017-04-01T06:23:45.931Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/record/index.html</loc>
-    
-    <lastmod>2017-04-01T02:54:56.228Z</lastmod>
     
   </url>
   
