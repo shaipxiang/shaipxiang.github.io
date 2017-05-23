@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo Local Search]]></title>
+    <url>%2F2017%2Fhexo_local_search.html</url>
+    <content type="text"><![CDATA[Local Search安装hexo-generator-search在站点的根目录下执行 npm install hexo-generator-search --save 安装hexo-generator-seachdb在站点的根目录下执行 npm install hexo-generator-searchdb --save 配置站点文件新增以下内容 search: path: search.xml field: post format: html limit: 10000 配置主题文件修改FALSE为true local_search: enable: true 原理：通过插件本地生成search.xml文件，通过关键字进行全站搜索。 Swiftype注册用户在Swiftype官网注册账户，Create A Search Engine,按照提示完成配置，记录下 Install Code，保存 Swiftype_key 配置主题文件编辑主题文件，在next新版本中已经内置了该搜索，直接复制key即可 # Swiftype Search Key swiftype_key: xxxxxxxxx Algolia注册用户在Algolia官网注册用户，Create a nex index,记录下 三个key和Index名称 安装插件npm install --save hexo-algolia 编辑站点文件新增以下内容 algolia: applicationID: &apos;applicationID&apos; apiKey: &apos;apiKey&apos; adminApiKey: &apos;adminApiKey&apos; indexName: &apos;indexName&apos; chunkSize: 5000 更新Index站点根目录执行 hexo algolia 如果执行失败，请先执行 hexo clean，然后在重试 修改主题文件修改FALSE 为 true # Algolia Search algolia_search: enable: false hits: per_page: 10 labels: input_placeholder: Search for Posts hits_empty: &quot;We didn&apos;t find any results for the search: ${query}&quot; hits_stats: &quot;${hits} results found in ${time} ms&quot; 注册成功后有14天所有功能的试用期，过后免费10000条记录。]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[三十岁开始学世故]]></title>
     <url>%2F2017%2Fsophisticated_record.html</url>
     <content type="text"><![CDATA[]]></content>
