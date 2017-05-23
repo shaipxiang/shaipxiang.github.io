@@ -79,6 +79,106 @@ algolia_search:
   </entry>
   
   <entry>
+    <title>Hexo 博客搭建几个小功能</title>
+    <link href="http://www.shaipxiang.com/2017/hexo_function_ins.html"/>
+    <id>http://www.shaipxiang.com/2017/hexo_function_ins.html</id>
+    <published>2017-05-21T02:55:25.000Z</published>
+    <updated>2017-05-23T10:34:29.566Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
+
+<p><strong>题注：</strong> 搭建博客几个月的时间了，还没有习惯在博客上写更多的内容，突然发现搭建博客时的很多东西都快要忘记了，记录下初建博客时的几个功能点</p>
+<hr>
+<h2 id="安装hexo报错"><a href="#安装hexo报错" class="headerlink" title="安装hexo报错"></a>安装hexo报错</h2><h3 id="32位node-js"><a href="#32位node-js" class="headerlink" title="32位node.js"></a>32位node.js</h3><p>开始使用64的node.js的时候，安装hexo，一直各种各样的问题，网上查了很多文章都没有解决，后来试着改成32位的，竟然成功了，不知道是不是我电脑中.net原因</p>
+<h3 id="安装Net-error"><a href="#安装Net-error" class="headerlink" title="安装Net error"></a>安装Net error</h3><p>切换到淘宝线路</p>
+<pre><code>先设置代理为空 npm config set proxy null， 
+然后再$ npm config set registry https://registry.npm.taobao.org
+清除缓存  npm cache clean
+</code></pre><h3 id="error-Deployer-not-found-github"><a href="#error-Deployer-not-found-github" class="headerlink" title="error Deployer not found :github"></a>error Deployer not found :github</h3><p>安装hexo前先运行以下命令</p>
+<pre><code>$ npm install hexo-deployer-git --save
+$ hexo g
+$ hexo d
+</code></pre><h2 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a>添加标签</h2><pre><code>$ cd myBlog
+$ hexo new page tags
+</code></pre><p>生成的 <code>../tags/index.md</code>文件，添加以下内容</p>
+<pre><code>---
+title: tags
+date: 2016-11-15 19:10:05
+type: &quot;tags&quot;
+---
+</code></pre><p>为文章添加标签，tags里面添加即可</p>
+<pre><code>---
+title: 基于Hexo和Github搭建博客
+date: 2016-11-09
+tags: [npm, hexo, github]
+categories: 搭建博客
+---
+</code></pre><h2 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h2><pre><code>$ cd myBlog
+$ hexo new page categories
+</code></pre><p>生成的 <code>../categories/index.md</code> 文件，添加以下内容</p>
+<pre><code>---
+title: categories
+date: 2016-11-15 19:11:13
+type: &quot;categories&quot;
+---
+</code></pre><p>为文章添加分类，categories里面添加即可</p>
+<pre><code>---
+title: 基于Hexo和Github搭建博客
+date: 2016-11-09
+tags: [npm, hexo, github]
+categories: 搭建博客
+---
+</code></pre><p>多分类使用，分割</p>
+<h2 id="RSS"><a href="#RSS" class="headerlink" title="RSS"></a>RSS</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><pre><code>$ npm install --save hexo-generator-feed
+</code></pre><h3 id="站点文件配置"><a href="#站点文件配置" class="headerlink" title="站点文件配置"></a>站点文件配置</h3><pre><code># Extensions
+## Plugins: http://hexo.io/plugins/
+plugins:
+  hexo-generate-feed
+</code></pre><h3 id="主题文件配置"><a href="#主题文件配置" class="headerlink" title="主题文件配置"></a>主题文件配置</h3><pre><code># Set rss to false to disable feed link.
+# Leave rss as empty to use site&apos;s feed link.
+# Set rss to specific value if you have burned your feed already.
+rss: /atom.xml
+</code></pre><h3 id="生成Rss-feed"><a href="#生成Rss-feed" class="headerlink" title="生成Rss feed"></a>生成Rss feed</h3><pre><code>$ hexo g
+</code></pre><p>在 <code>./public</code> 文件中生成 <code>atom.xml</code> 文件，部署到GitHub即可。</p>
+<h2 id="修改文件后没有生效"><a href="#修改文件后没有生效" class="headerlink" title="修改文件后没有生效"></a>修改文件后没有生效</h2><p>执行 <code>hexo clean</code>后重新生成发布即可</p>
+<h2 id="阅读次数统计"><a href="#阅读次数统计" class="headerlink" title="阅读次数统计"></a>阅读次数统计</h2><p>新版本的next配置了LeanCloud，去官网申请一个账号，拿到Id和key</p>
+<p>修改主题文件：</p>
+<pre><code># Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+   enable: true
+   app_id: XXX
+   app_key: XXX
+</code></pre><h2 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h2><p>markdown是可以嵌入html标签的，直接把链接嵌入即可。</p>
+<h3 id="豆瓣音乐"><a href="#豆瓣音乐" class="headerlink" title="豆瓣音乐"></a>豆瓣音乐</h3><pre><code>&lt;center&gt; &lt;iframe name=&quot;iframe_canvas&quot; src=&quot;http://douban.fm/partner/baidu/doubanradio&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; width=&quot;400&quot; height=&quot;200&quot;&gt;&lt;/iframe&gt; &lt;/center&gt;
+</code></pre><p>复制上面代码到博客任意位置即可，歌曲随机，可切歌</p>
+<h3 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28947001&auto=1&height=66"></iframe>
+
+<p>可自建歌单嵌入，如果不需要自动播放，将 上面的 auto 改为0即可。</p>
+<h2 id="Canvas-nest背景特效"><a href="#Canvas-nest背景特效" class="headerlink" title="Canvas-nest背景特效"></a>Canvas-nest背景特效</h2><p>在新的next主题已经内置，修改下主题配置文件即可</p>
+<pre><code># Canvas-nest
+canvas_nest: false
+</code></pre><h2 id="打赏功能添加"><a href="#打赏功能添加" class="headerlink" title="打赏功能添加"></a>打赏功能添加</h2><p>新的next主题文件中已新增，修改主题配置文件即可</p>
+<pre><code>## 文章末尾是否显示打赏按钮
+reward_comment: 如果您觉得文章帮到了您，不妨请我喝杯咖啡～～
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.png
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      Hexo 博客搭建的几个功能点
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.shaipxiang.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.shaipxiang.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>三十岁开始学世故</title>
     <link href="http://www.shaipxiang.com/2017/sophisticated_record.html"/>
     <id>http://www.shaipxiang.com/2017/sophisticated_record.html</id>
