@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Android-故事汇</title>
+  <title>赵井华的布唠格</title>
   <subtitle>select * from life.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-05-23T09:54:23.952Z</updated>
+  <updated>2017-07-18T08:47:14.241Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Hexo Local Search</title>
-    <link href="http://www.shaipxiang.com/2017/hexo_local_search.html"/>
-    <id>http://www.shaipxiang.com/2017/hexo_local_search.html</id>
+    <link href="http://www.shaipxiang.com/hexo_local_search.html"/>
+    <id>http://www.shaipxiang.com/hexo_local_search.html</id>
     <published>2017-05-23T07:55:25.000Z</published>
-    <updated>2017-05-23T09:54:23.952Z</updated>
+    <updated>2017-07-18T08:47:14.241Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Local-Search"><a href="#Local-Search" class="headerlink" title="Local Search"></a>Local Search</h2><h3 id="安装hexo-generator-search"><a href="#安装hexo-generator-search" class="headerlink" title="安装hexo-generator-search"></a>安装hexo-generator-search</h3><p>在站点的根目录下执行</p>
 <pre><code>npm install hexo-generator-search --save
@@ -80,10 +80,10 @@ algolia_search:
   
   <entry>
     <title>Hexo 博客搭建几个小功能</title>
-    <link href="http://www.shaipxiang.com/2017/hexo_function_ins.html"/>
-    <id>http://www.shaipxiang.com/2017/hexo_function_ins.html</id>
+    <link href="http://www.shaipxiang.com/hexo_function_ins.html"/>
+    <id>http://www.shaipxiang.com/hexo_function_ins.html</id>
     <published>2017-05-21T02:55:25.000Z</published>
-    <updated>2017-05-23T10:34:29.566Z</updated>
+    <updated>2017-07-18T08:46:54.345Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
 
@@ -180,10 +180,10 @@ alipay: /images/alipay.png
   
   <entry>
     <title>三十岁开始学世故</title>
-    <link href="http://www.shaipxiang.com/2017/sophisticated_record.html"/>
-    <id>http://www.shaipxiang.com/2017/sophisticated_record.html</id>
+    <link href="http://www.shaipxiang.com/sophisticated_record.html"/>
+    <id>http://www.shaipxiang.com/sophisticated_record.html</id>
     <published>2017-05-02T06:55:25.000Z</published>
-    <updated>2017-05-18T06:31:19.759Z</updated>
+    <updated>2017-07-18T08:47:29.019Z</updated>
     
     <content type="html"><![CDATA[<p><div align="center"><br><img src="http://pic.baike.soso.com/p/20140320/20140320140719-264189854.jpg"><br></div></p>
 <hr>
@@ -204,10 +204,10 @@ alipay: /images/alipay.png
   
   <entry>
     <title>Hexo Next个人博客的搭建（二）</title>
-    <link href="http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html"/>
-    <id>http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html</id>
+    <link href="http://www.shaipxiang.com/hexo_next_blog_yuming.html"/>
+    <id>http://www.shaipxiang.com/hexo_next_blog_yuming.html</id>
     <published>2017-04-21T02:55:25.000Z</published>
-    <updated>2017-04-21T02:16:28.804Z</updated>
+    <updated>2017-07-18T08:47:42.680Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
 
@@ -234,10 +234,10 @@ alipay: /images/alipay.png
   
   <entry>
     <title>Hexo Next个人博客的搭建（一）</title>
-    <link href="http://www.shaipxiang.com/2017/hexo_next_blog_build.html"/>
-    <id>http://www.shaipxiang.com/2017/hexo_next_blog_build.html</id>
+    <link href="http://www.shaipxiang.com/hexo_next_blog_build.html"/>
+    <id>http://www.shaipxiang.com/hexo_next_blog_build.html</id>
     <published>2017-04-20T05:55:25.000Z</published>
-    <updated>2017-04-20T09:49:08.695Z</updated>
+    <updated>2017-07-18T08:47:54.484Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://www.sn.xinhuanet.com/2014-11/17/1113275036_14161897202821n.jpg"><br></div>
 
@@ -940,8 +940,8 @@ $ hexo d   #托管到github
   
   <entry>
     <title>练习毛笔字的几篇文章</title>
-    <link href="http://www.shaipxiang.com/2017/wenxue_record.html"/>
-    <id>http://www.shaipxiang.com/2017/wenxue_record.html</id>
+    <link href="http://www.shaipxiang.com/wenxue_record.html"/>
+    <id>http://www.shaipxiang.com/wenxue_record.html</id>
     <published>2017-04-01T05:55:25.000Z</published>
     <updated>2017-04-20T03:42:08.414Z</updated>
     
@@ -1055,8 +1055,8 @@ $ hexo d   #托管到github
   
   <entry>
     <title>Android Studio Code Template个性化设置</title>
-    <link href="http://www.shaipxiang.com/2017/Android_Studio_Code_Template_settings.html"/>
-    <id>http://www.shaipxiang.com/2017/Android_Studio_Code_Template_settings.html</id>
+    <link href="http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html"/>
+    <id>http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html</id>
     <published>2017-03-31T11:22:25.000Z</published>
     <updated>2017-04-01T02:11:44.460Z</updated>
     
@@ -1119,8 +1119,8 @@ ASSERT   8F0005
   
   <entry>
     <title>Android Studio常用插件</title>
-    <link href="http://www.shaipxiang.com/2017/Android_Studio_usual_plugin.html"/>
-    <id>http://www.shaipxiang.com/2017/Android_Studio_usual_plugin.html</id>
+    <link href="http://www.shaipxiang.com/Android_Studio_usual_plugin.html"/>
+    <id>http://www.shaipxiang.com/Android_Studio_usual_plugin.html</id>
     <published>2017-03-30T11:22:25.000Z</published>
     <updated>2017-04-01T01:52:11.003Z</updated>
     
@@ -1173,8 +1173,8 @@ ASSERT   8F0005
   
   <entry>
     <title>Android Studio入门常见问题</title>
-    <link href="http://www.shaipxiang.com/2017/Android_Studio_typtical_ques.html"/>
-    <id>http://www.shaipxiang.com/2017/Android_Studio_typtical_ques.html</id>
+    <link href="http://www.shaipxiang.com/Android_Studio_typtical_ques.html"/>
+    <id>http://www.shaipxiang.com/Android_Studio_typtical_ques.html</id>
     <published>2017-03-30T11:12:25.000Z</published>
     <updated>2017-04-01T01:53:42.013Z</updated>
     
@@ -1306,8 +1306,8 @@ dependencies {
   
   <entry>
     <title>MarkDown一些使用小技巧</title>
-    <link href="http://www.shaipxiang.com/2017/MarkDown_use_skill.html"/>
-    <id>http://www.shaipxiang.com/2017/MarkDown_use_skill.html</id>
+    <link href="http://www.shaipxiang.com/MarkDown_use_skill.html"/>
+    <id>http://www.shaipxiang.com/MarkDown_use_skill.html</id>
     <published>2017-03-29T11:32:25.000Z</published>
     <updated>2017-04-01T01:55:09.131Z</updated>
     
@@ -1370,8 +1370,8 @@ dependencies {
   
   <entry>
     <title>MarkDown基本用法汇总</title>
-    <link href="http://www.shaipxiang.com/2017/MarkDown_use.html"/>
-    <id>http://www.shaipxiang.com/2017/MarkDown_use.html</id>
+    <link href="http://www.shaipxiang.com/MarkDown_use.html"/>
+    <id>http://www.shaipxiang.com/MarkDown_use.html</id>
     <published>2017-03-28T07:55:25.000Z</published>
     <updated>2017-04-01T01:54:20.924Z</updated>
     
@@ -1417,8 +1417,8 @@ dependencies {
   
   <entry>
     <title>正则学习记录</title>
-    <link href="http://www.shaipxiang.com/2017/regular_record.html"/>
-    <id>http://www.shaipxiang.com/2017/regular_record.html</id>
+    <link href="http://www.shaipxiang.com/regular_record.html"/>
+    <id>http://www.shaipxiang.com/regular_record.html</id>
     <published>2017-03-25T07:55:25.000Z</published>
     <updated>2017-04-01T06:23:45.931Z</updated>
     
@@ -1509,8 +1509,8 @@ dependencies {
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.shaipxiang.com/2017/Hello_World.html"/>
-    <id>http://www.shaipxiang.com/2017/Hello_World.html</id>
+    <link href="http://www.shaipxiang.com/Hello_World.html"/>
+    <id>http://www.shaipxiang.com/Hello_World.html</id>
     <published>2017-03-24T07:55:25.000Z</published>
     <updated>2017-04-01T01:48:24.791Z</updated>
     

@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/hexo_function_ins.html</loc>
+    <loc>http://www.shaipxiang.com/hexo_next_blog_build.html</loc>
     
-    <lastmod>2017-05-23T10:34:29.566Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/2017/hexo_local_search.html</loc>
-    
-    <lastmod>2017-05-23T09:54:23.952Z</lastmod>
+    <lastmod>2017-07-18T08:47:54.484Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/sophisticated_record.html</loc>
+    <loc>http://www.shaipxiang.com/hexo_next_blog_yuming.html</loc>
     
-    <lastmod>2017-05-18T06:31:19.759Z</lastmod>
+    <lastmod>2017-07-18T08:47:42.680Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.shaipxiang.com/sophisticated_record.html</loc>
+    
+    <lastmod>2017-07-18T08:47:29.019Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.shaipxiang.com/hexo_local_search.html</loc>
+    
+    <lastmod>2017-07-18T08:47:14.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.shaipxiang.com/hexo_function_ins.html</loc>
+    
+    <lastmod>2017-07-18T08:46:54.345Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.shaipxiang.com/404.html</loc>
+    
+    <lastmod>2017-07-18T08:40:35.271Z</lastmod>
     
   </url>
   
@@ -30,20 +51,6 @@
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/hexo_next_blog_yuming.html</loc>
-    
-    <lastmod>2017-04-21T02:16:28.804Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/2017/hexo_next_blog_build.html</loc>
-    
-    <lastmod>2017-04-20T09:49:08.695Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.shaipxiang.com/about/index.html</loc>
     
     <lastmod>2017-04-20T07:47:11.296Z</lastmod>
@@ -51,56 +58,56 @@
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/wenxue_record.html</loc>
+    <loc>http://www.shaipxiang.com/wenxue_record.html</loc>
     
     <lastmod>2017-04-20T03:42:08.414Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/regular_record.html</loc>
+    <loc>http://www.shaipxiang.com/regular_record.html</loc>
     
     <lastmod>2017-04-01T06:23:45.931Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/Android_Studio_Code_Template_settings.html</loc>
+    <loc>http://www.shaipxiang.com/Android_Studio_Code_Template_settings.html</loc>
     
     <lastmod>2017-04-01T02:11:44.460Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/MarkDown_use_skill.html</loc>
+    <loc>http://www.shaipxiang.com/MarkDown_use_skill.html</loc>
     
     <lastmod>2017-04-01T01:55:09.131Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/MarkDown_use.html</loc>
+    <loc>http://www.shaipxiang.com/MarkDown_use.html</loc>
     
     <lastmod>2017-04-01T01:54:20.924Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/Android_Studio_typtical_ques.html</loc>
+    <loc>http://www.shaipxiang.com/Android_Studio_typtical_ques.html</loc>
     
     <lastmod>2017-04-01T01:53:42.013Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/Android_Studio_usual_plugin.html</loc>
+    <loc>http://www.shaipxiang.com/Android_Studio_usual_plugin.html</loc>
     
     <lastmod>2017-04-01T01:52:11.003Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.shaipxiang.com/2017/Hello_World.html</loc>
+    <loc>http://www.shaipxiang.com/Hello_World.html</loc>
     
     <lastmod>2017-04-01T01:48:24.791Z</lastmod>
     
@@ -110,13 +117,6 @@
     <loc>http://www.shaipxiang.com/tags/index.html</loc>
     
     <lastmod>2017-03-28T06:51:12.559Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.shaipxiang.com/404.html</loc>
-    
-    <lastmod>2017-03-27T04:11:17.578Z</lastmod>
     
   </url>
   
