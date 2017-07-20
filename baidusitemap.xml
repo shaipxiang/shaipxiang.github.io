@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.shaipxiang.com/hexo_function_ins.html</loc>
+    <lastmod>2017-07-20T03:45:22.851Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 博客搭建几个小功能</title>
+        <pubTime>2017-05-21T02:55:25.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.shaipxiang.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.shaipxiang.com/sophisticated_record.html</loc>
     <lastmod>2017-07-19T04:14:52.432Z</lastmod>
     <data>
@@ -71,26 +91,6 @@
         <display>
         <title>Hexo Local Search</title>
         <pubTime>2017-05-23T07:55:25.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://www.shaipxiang.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.shaipxiang.com/hexo_function_ins.html</loc>
-    <lastmod>2017-07-18T08:46:54.345Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 博客搭建几个小功能</title>
-        <pubTime>2017-05-21T02:55:25.000Z</pubTime>
         
         <tag>Hexo</tag>
          
