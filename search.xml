@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[使用word分发Excel工资条]]></title>
     <url>%2Foffice_email_excel.html</url>
-    <content type="text"><![CDATA[___## 前 言&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能## 准 备1. 配置好outlook，配置好自己的邮箱2. 准备好Excel文件，如下图 开始工作新建空Word文档 邮件功能点击菜单栏【邮件】-【开始邮件合并】-【电子邮件】，【选择收件人】-【使用现有列表】，选择准备好的工资条Excel文件，选择成功后，点击【编辑收件人列表】，出现导入的页面 插入Excel内容节点如下图： 预览结果如下图： 发送邮件 查看结果 OK了，是不是比较简单，哈哈]]></content>
+    <content type="text"><![CDATA[___# 前 言 #&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能# 准 备 #1. 配置好outlook，配置好自己的邮箱2. 准备好Excel文件，如下图 开始工作新建空Word文档 邮件功能点击菜单栏【邮件】-【开始邮件合并】-【电子邮件】，【选择收件人】-【使用现有列表】，选择准备好的工资条Excel文件，选择成功后，点击【编辑收件人列表】，出现导入的页面 插入Excel内容节点如下图： 预览结果如下图： 发送邮件 查看结果 OK了，是不是比较简单，哈哈]]></content>
       <categories>
         <category>office</category>
       </categories>
