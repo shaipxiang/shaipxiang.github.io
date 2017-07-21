@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-07-18T08:47:14.241Z</updated>
+  <updated>2017-07-21T08:18:24.439Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用word分发Excel工资条</title>
+    <link href="http://www.shaipxiang.com/office_email_excel.html"/>
+    <id>http://www.shaipxiang.com/office_email_excel.html</id>
+    <published>2017-07-21T08:18:25.000Z</published>
+    <updated>2017-07-21T08:18:24.439Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://i.imgur.com/tqD8GFJ.png"><br></div><br>___<br><br>## 前言<br><br>&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能<br><br>## 准备<br><br>1. 配置好outlook，配置好自己的邮箱<br>2. 准备好Excel文件，如下图<br>    <div align="center"><br>        <img src="http://i.imgur.com/ANkg4Dl.png"><br>    </div>
+
+<h2 id="开始工作"><a href="#开始工作" class="headerlink" title="开始工作"></a>开始工作</h2><h3 id="新建空Word文档"><a href="#新建空Word文档" class="headerlink" title="新建空Word文档"></a>新建空Word文档</h3><p><img src="http://i.imgur.com/J2iqg9W.png" alt=""></p>
+<h3 id="邮件功能"><a href="#邮件功能" class="headerlink" title="邮件功能"></a>邮件功能</h3><p>点击菜单栏【邮件】-【开始邮件合并】-【电子邮件】，【选择收件人】-【使用现有列表】，选择准备好的工资条Excel文件，选择成功后，点击【编辑收件人列表】，出现导入的页面</p>
+<p><img src="http://i.imgur.com/2icMov5.png" alt=""></p>
+<h3 id="插入Excel内容节点"><a href="#插入Excel内容节点" class="headerlink" title="插入Excel内容节点"></a>插入Excel内容节点</h3><p>如下图：<br><img src="http://i.imgur.com/sL9SPCO.png" alt=""></p>
+<h3 id="预览结果"><a href="#预览结果" class="headerlink" title="预览结果"></a>预览结果</h3><p>如下图：<br><img src="http://i.imgur.com/E3lgbp1.png" alt=""></p>
+<h3 id="发送邮件"><a href="#发送邮件" class="headerlink" title="发送邮件"></a>发送邮件</h3><p><img src="http://i.imgur.com/PDHizJs.png" alt=""></p>
+<h3 id="查看结果"><a href="#查看结果" class="headerlink" title="查看结果"></a>查看结果</h3><p><img src="http://i.imgur.com/8bJqDyh.png" alt=""></p>
+<p>OK了，是不是比较简单，哈哈</p>
+]]></content>
+    
+    <summary type="html">
+    
+      偶然遇到群发类似工资条的Excel文件，本来想用程序实现，后来发现了一个更加便捷的方式
+    
+    </summary>
+    
+      <category term="感悟" scheme="http://www.shaipxiang.com/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="感悟" scheme="http://www.shaipxiang.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Local Search</title>
@@ -348,30 +380,6 @@ code {
     
     
       <category term="Hexo" scheme="http://www.shaipxiang.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三十岁开始学世故</title>
-    <link href="http://www.shaipxiang.com/sophisticated_record.html"/>
-    <id>http://www.shaipxiang.com/sophisticated_record.html</id>
-    <published>2017-05-02T06:55:25.000Z</published>
-    <updated>2017-07-19T04:14:52.432Z</updated>
-    
-    <content type="html"><![CDATA[<p><div align="center"><br><img src="http://pic.baike.soso.com/p/20140320/20140320140719-264189854.jpg"><br></div></p>
-<hr>
-]]></content>
-    
-    <summary type="html">
-    
-      人有可能一辈子也学不到圆滑,但是可以变得世故
-    
-    </summary>
-    
-      <category term="感悟" scheme="http://www.shaipxiang.com/categories/%E6%84%9F%E6%82%9F/"/>
-    
-    
-      <category term="感悟" scheme="http://www.shaipxiang.com/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
