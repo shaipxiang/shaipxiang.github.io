@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-07-21T08:25:07.304Z</updated>
+  <updated>2017-07-21T08:27:16.236Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://www.shaipxiang.com/office_email_excel.html"/>
     <id>http://www.shaipxiang.com/office_email_excel.html</id>
     <published>2017-07-21T08:18:25.000Z</published>
-    <updated>2017-07-21T08:25:07.304Z</updated>
+    <updated>2017-07-21T08:27:16.236Z</updated>
     
-    <content type="html"><![CDATA[<div align="center"><br><img src="http://i.imgur.com/tqD8GFJ.png"><br></div><br>___<br><br><br># 前 言 #<br><br>&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能<br><br><br># 准 备 #<br><br>1. 配置好outlook，配置好自己的邮箱<br>2. 准备好Excel文件，如下图<br>    <div align="center"><br>        <img src="http://i.imgur.com/ANkg4Dl.png"><br>    </div>
+    <content type="html"><![CDATA[<div align="center"><br><img src="http://i.imgur.com/tqD8GFJ.png"><br></div><br>___<br><br><br># 前 言 #<br><br>&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能<br><br># 准 备 #<br><br>1. 配置好outlook，配置好自己的邮箱<br>2. 准备好Excel文件，如下图<br>    <div align="center"><br>        <img src="http://i.imgur.com/ANkg4Dl.png"><br>    </div>
 
 <h1 id="开始工作"><a href="#开始工作" class="headerlink" title="开始工作"></a>开始工作</h1><h3 id="新建空Word文档"><a href="#新建空Word文档" class="headerlink" title="新建空Word文档"></a>新建空Word文档</h3><p><img src="http://i.imgur.com/J2iqg9W.png" alt=""></p>
 <h3 id="邮件功能"><a href="#邮件功能" class="headerlink" title="邮件功能"></a>邮件功能</h3><p>点击菜单栏【邮件】-【开始邮件合并】-【电子邮件】，【选择收件人】-【使用现有列表】，选择准备好的工资条Excel文件，选择成功后，点击【编辑收件人列表】，出现导入的页面</p>
