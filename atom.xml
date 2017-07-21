@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.shaipxiang.com/"/>
-  <updated>2017-07-21T08:18:24.439Z</updated>
+  <updated>2017-07-21T08:20:37.082Z</updated>
   <id>http://www.shaipxiang.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.shaipxiang.com/office_email_excel.html"/>
     <id>http://www.shaipxiang.com/office_email_excel.html</id>
     <published>2017-07-21T08:18:25.000Z</published>
-    <updated>2017-07-21T08:18:24.439Z</updated>
+    <updated>2017-07-21T08:20:37.082Z</updated>
     
     <content type="html"><![CDATA[<div align="center"><br><img src="http://i.imgur.com/tqD8GFJ.png"><br></div><br>___<br><br>## 前言<br><br>&emsp;&emsp;本文介绍使用office自带word分发Excel工资条的功能<br><br>## 准备<br><br>1. 配置好outlook，配置好自己的邮箱<br>2. 准备好Excel文件，如下图<br>    <div align="center"><br>        <img src="http://i.imgur.com/ANkg4Dl.png"><br>    </div>
 
@@ -40,10 +40,10 @@
     
     </summary>
     
-      <category term="感悟" scheme="http://www.shaipxiang.com/categories/%E6%84%9F%E6%82%9F/"/>
+      <category term="office" scheme="http://www.shaipxiang.com/categories/office/"/>
     
     
-      <category term="感悟" scheme="http://www.shaipxiang.com/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="office小功能" scheme="http://www.shaipxiang.com/tags/office%E5%B0%8F%E5%8A%9F%E8%83%BD/"/>
     
   </entry>
   
